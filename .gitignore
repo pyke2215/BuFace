@@ -6,6 +6,10 @@ tb_logger/*
 wandb/*
 tmp/*
 
+# model weights (downloaded by setup script)
+gfpgan/weights/*.pth
+*.onnx
+
 version.py
 
 # Byte-compiled / optimized / DLL files
